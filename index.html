@@ -8,7 +8,11 @@
 <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
 
-!-- Navbar (Toolbar) -->
+<!-- Include Popper.js and Bootstrap's JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Navbar (Toolbar) -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="#">Goalie Wins</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,8 +45,6 @@
     </div>
 </nav>
 
-
-
 <script>
     $(document).ready(function() {
         // Initialize DataTables with 50 rows display
@@ -74,6 +76,7 @@
         });
     });
 </script>
+
 <div class="container">
     <!-- DataTable -->
     <table border="0" class="dataframe table table-striped table-bordered">
@@ -233,4 +236,3 @@
   </tbody>
 </table>
 </div>
-
