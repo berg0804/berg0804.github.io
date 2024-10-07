@@ -1,4 +1,7 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -11,6 +14,13 @@
 <!-- Include Popper.js and Bootstrap's JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<style>
+    body {
+        padding-top: 50px; /* Adjust based on the height of your navbar */
+    }
+</style>
 
 <!-- Navbar (Toolbar) -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -21,7 +31,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
              <li class="nav-item">
-                <a class="nav-link" href="">Daily</a>
+                <a class="nav-link" href="bootstrap_combined.html">Daily</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="bootstrap_impact_totals.html">Yearly</a>
@@ -32,10 +42,14 @@
                     Leaders
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownHover">
+                    <a class="dropdown-item" href="bootstrap_win25_totals.html">2024-25 Wins</a>
+                    <a class="dropdown-item" href="bootstrap_loss25_totals.html">2024-25 Losses</a>                
                     <a class="dropdown-item" href="bootstrap_win24_totals.html">2023-24 Wins</a>
                     <a class="dropdown-item" href="bootstrap_loss24_totals.html">2023-24 Losses</a>
                     <a class="dropdown-item" href="bootstrap_win23_totals.html">2022-23 Wins</a>
                     <a class="dropdown-item" href="bootstrap_loss23_totals.html">2022-23 Losses</a>
+                    <a class="dropdown-item" href="bootstrap_win22_totals.html">2021-22 Wins</a>
+                    <a class="dropdown-item" href="bootstrap_loss22_totals.html">2021-22 Losses</a>                    
                 </div>
             </li>
             <li class="nav-item">
@@ -44,6 +58,7 @@
         </ul>
     </div>
 </nav>
+
 
 <script>
     $(document).ready(function() {
@@ -77,9 +92,12 @@
     });
 </script>
 
+
 <div class="container">
     <!-- DataTable -->
-    <h2 class="mt-5">April 18</h2> <!-- Table header -->
+    <h2 class="mt-5">October 5, 2024</h2>
+    <div id="table1-container">
+    <!-- Table header -->
     <table border="0" class="dataframe table table-striped table-bordered">
   <thead>
     <tr style="text-align: right;">
@@ -89,151 +107,104 @@
       <th>Games</th>
       <th>xGAE</th>
       <th>Result</th>
-      <th>GD</th>
       <th>Impact</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Lukas Dostal</td>
-      <td>ANA</td>
-      <td>2024-04-18</td>
-      <td>ANA at VGK</td>
-      <td>2.44</td>
-      <td>W</td>
-      <td>3</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Dustin Wolf</td>
-      <td>CGY</td>
-      <td>2024-04-18</td>
-      <td>S.J at CGY</td>
-      <td>1.00</td>
-      <td>W</td>
-      <td>4</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Justus Annunen</td>
-      <td>COL</td>
-      <td>2024-04-18</td>
-      <td>EDM at COL</td>
-      <td>2.79</td>
-      <td>W</td>
-      <td>4</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Arvid Soderblom</td>
-      <td>CHI</td>
-      <td>2024-04-18</td>
-      <td>CHI at L.A</td>
-      <td>-0.99</td>
+      <td>Devon Levi</td>
+      <td>BUF</td>
+      <td>2024-10-05</td>
+      <td>BUF at N.J</td>
+      <td>0.41</td>
       <td>L</td>
-      <td>-1</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Stuart Skinner</td>
-      <td>EDM</td>
-      <td>2024-04-18</td>
-      <td>EDM at COL</td>
-      <td>-2.58</td>
-      <td>L</td>
-      <td>-4</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Calvin Pickard</td>
-      <td>EDM</td>
-      <td>2024-04-18</td>
-      <td>EDM at COL</td>
-      <td>0.27</td>
-      <td>L</td>
-      <td>-4</td>
       <td>Strong in Loss</td>
     </tr>
     <tr>
-      <td>Cam Talbot</td>
-      <td>LAK</td>
-      <td>2024-04-18</td>
-      <td>CHI at L.A</td>
-      <td>-2.65</td>
+      <td>Jake Allen</td>
+      <td>NJD</td>
+      <td>2024-10-05</td>
+      <td>BUF at N.J</td>
+      <td>0.78</td>
       <td>W</td>
-      <td>1</td>
-      <td>Bad in Win</td>
-    </tr>
-    <tr>
-      <td>Marc-Andre Fleury</td>
-      <td>MIN</td>
-      <td>2024-04-18</td>
-      <td>SEA at MIN</td>
-      <td>-0.80</td>
-      <td>L</td>
-      <td>-1</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Devin Cooley</td>
-      <td>SJS</td>
-      <td>2024-04-18</td>
-      <td>S.J at CGY</td>
-      <td>-3.16</td>
-      <td>L</td>
-      <td>-4</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Georgi Romanov</td>
-      <td>SJS</td>
-      <td>2024-04-18</td>
-      <td>S.J at CGY</td>
-      <td>1.73</td>
-      <td>L</td>
-      <td>-4</td>
-      <td>Strong in Loss</td>
-    </tr>
-    <tr>
-      <td>Joey Daccord</td>
-      <td>SEA</td>
-      <td>2024-04-18</td>
-      <td>SEA at MIN</td>
-      <td>-1.00</td>
-      <td>W</td>
-      <td>1</td>
-      <td>Bad in Win</td>
-    </tr>
-    <tr>
-      <td>Thatcher Demko</td>
-      <td>VAN</td>
-      <td>2024-04-18</td>
-      <td>VAN at WPG</td>
-      <td>-0.50</td>
-      <td>L</td>
-      <td>-2</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Adin Hill</td>
-      <td>VEG</td>
-      <td>2024-04-18</td>
-      <td>ANA at VGK</td>
-      <td>-1.72</td>
-      <td>L</td>
-      <td>-3</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Laurent Brossoit</td>
-      <td>WPG</td>
-      <td>2024-04-18</td>
-      <td>VAN at WPG</td>
-      <td>0.23</td>
-      <td>W</td>
-      <td>2</td>
       <td>No Impact</td>
     </tr>
   </tbody>
 </table>
 </div>
+    <!-- DataTable 2 -->
+    <h2>Top 10 Games</h2>
+    <div id="table2-container">
+        <table border="0" class="dataframe table table-striped table-bordered" id="combinedTable">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Goalie</th>
+      <th>Team</th>
+      <th>Date</th>
+      <th>Games</th>
+      <th>xGAE</th>
+      <th>Result</th>
+      <th>Impact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jacob Markstrom</td>
+      <td>NJD</td>
+      <td>2024-10-04</td>
+      <td>N.J at BUF</td>
+      <td>2.61</td>
+      <td>W</td>
+      <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Jake Allen</td>
+      <td>NJD</td>
+      <td>2024-10-05</td>
+      <td>BUF at N.J</td>
+      <td>0.78</td>
+      <td>W</td>
+      <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Devon Levi</td>
+      <td>BUF</td>
+      <td>2024-10-05</td>
+      <td>BUF at N.J</td>
+      <td>0.41</td>
+      <td>L</td>
+      <td>Strong in Loss</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    <!-- DataTable 3 -->
+    <h2>Bottom 10 Games</h2>
+    <div id="table3-container">
+        <table border="0" class="dataframe table table-striped table-bordered" id="combinedTable">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Goalie</th>
+      <th>Team</th>
+      <th>Date</th>
+      <th>Games</th>
+      <th>xGAE</th>
+      <th>Result</th>
+      <th>Impact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ukko-Pekka Luukkonen</td>
+      <td>BUF</td>
+      <td>2024-10-04</td>
+      <td>N.J at BUF</td>
+      <td>-0.39</td>
+      <td>L</td>
+      <td>No Impact</td>
+    </tr>
+  </tbody>
+</table>
+    </div>    
+</body>
+</html>
