@@ -21,40 +21,47 @@
         padding-top: 50px; /* Adjust based on the height of your navbar */
     }
 </style>
+
 <!-- Navbar (Toolbar) -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-             <li class="nav-item">
-                <a class="nav-link" href="bootstrap_combined.html">Daily</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="bootstrap_impact_totals.html">Yearly</a>
-            </li>
-            <!-- Dropdown with hover and click functionality -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHover" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Leaders
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownHover">
-                    <a class="dropdown-item" href="bootstrap_win25_totals.html">2024-25 Wins</a>
-                    <a class="dropdown-item" href="bootstrap_loss25_totals.html">2024-25 Losses</a>                  
-                    <a class="dropdown-item" href="bootstrap_win24_totals.html">2023-24 Wins</a>
-                    <a class="dropdown-item" href="bootstrap_loss24_totals.html">2023-24 Losses</a>
-                    <a class="dropdown-item" href="bootstrap_win23_totals.html">2022-23 Wins</a>
-                    <a class="dropdown-item" href="bootstrap_loss23_totals.html">2022-23 Losses</a>
-                    <a class="dropdown-item" href="bootstrap_win22_totals.html">2021-22 Wins</a>
-                    <a class="dropdown-item" href="bootstrap_loss22_totals.html">2021-22 Losses</a>                    
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-        </ul>
+    <div class="container-fluid">
+        <!-- Move navbar-toggler to be the first child of the navbar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Brand or Title -->
+        <a class="navbar-brand" href="#">Goalie Wins</a>
+        
+        <!-- Navbar content collapsible -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="bootstrap_combined.html">Daily</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bootstrap_impact_totals.html">Yearly</a>
+                </li>
+                <!-- Dropdown with hover and click functionality -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHover" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Leaders
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownHover">
+                        <a class="dropdown-item" href="bootstrap_win25_totals.html">2024-25 Wins</a>
+                        <a class="dropdown-item" href="bootstrap_loss25_totals.html">2024-25 Losses</a>
+                        <a class="dropdown-item" href="bootstrap_win24_totals.html">2023-24 Wins</a>
+                        <a class="dropdown-item" href="bootstrap_loss24_totals.html">2023-24 Losses</a>
+                        <a class="dropdown-item" href="bootstrap_win23_totals.html">2022-23 Wins</a>
+                        <a class="dropdown-item" href="bootstrap_loss23_totals.html">2022-23 Losses</a>
+                        <a class="dropdown-item" href="bootstrap_win22_totals.html">2021-22 Wins</a>
+                        <a class="dropdown-item" href="bootstrap_loss22_totals.html">2021-22 Losses</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 
