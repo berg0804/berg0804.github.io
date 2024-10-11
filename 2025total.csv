@@ -1,0 +1,41 @@
+Goalie,Team,Date,Games,xGAE,Result,Impact
+Connor Hellebuyck,WPG,2024-10-09, WPG at EDM,3.07,W,No Impact
+Stuart Skinner,EDM,2024-10-09, WPG at EDM,-3.5300000000000002,L,No Impact
+Calvin Pickard,EDM,2024-10-09, WPG at EDM,-0.28,L,No Impact
+Sam Montembeault,MTL,2024-10-09, TOR at MTL,6.09,W,Goalie Win
+Anthony Stolarz,TOR,2024-10-09, TOR at MTL,1.9700000000000002,L,Strong in Loss
+Tristan Jarry,PIT,2024-10-09, NYR at PIT,-0.8600000000000003,L,No Impact
+Igor Shesterkin,NYR,2024-10-09, NYR at PIT,3.46,W,No Impact
+Dan Vladar,CGY,2024-10-09, CGY at VAN,-2.43,W,Bad in Win
+Arturs Silovs,VAN,2024-10-09, CGY at VAN,-3.97,L,Goalie Loss
+Justus Annunen,COL,2024-10-09, COL at VGK,-1.72,L,No Impact
+Adin Hill,VEG,2024-10-09, COL at VGK,-1.5099999999999998,W,Bad in Win
+Joonas Korpisalo,BOS,2024-10-08, BOS at FLA,-0.9000000000000004,L,No Impact
+Petr Mrazek,CHI,2024-10-08, CHI at UTA,-1.15,L,No Impact
+Sergei Bobrovsky,FLA,2024-10-08, BOS at FLA,0.05999999999999961,W,No Impact
+Sergei Bobrovsky,FLA,2024-10-10, FLA at OTT,-0.19999999999999996,L,No Impact
+Jake Allen,NJD,2024-10-05, BUF at N.J,0.78,W,No Impact
+Jacob Markstrom,NJD,2024-10-04, N.J at BUF,2.61,W,No Impact
+Jacob Markstrom,NJD,2024-10-10, TOR at N.J,-1.67,L,No Impact
+Jordan  Binnington,STL,2024-10-08, STL at SEA,1.65,W,Goalie Win
+Philipp Grubauer,SEA,2024-10-08, STL at SEA,-1.09,L,Goalie Loss
+Connor Ingram,UTA,2024-10-08, CHI at UTA,1.1099999999999999,W,No Impact
+Connor Ingram,UTA,2024-10-10, UTA at NYI,-1.54,,No Impact
+Devon Levi,BUF,2024-10-05, BUF at N.J,0.41000000000000014,L,Strong in Loss
+Ukko-Pekka Luukkonen,BUF,2024-10-04, N.J at BUF,-0.3900000000000001,L,No Impact
+Ukko-Pekka Luukkonen,BUF,2024-10-10, L.A at BUF,-0.28,L,No Impact
+Darcy Kuemper,LAK,2024-10-10, L.A at BUF,3.3899999999999997,W,Goalie Win
+Cayden Primeau,MTL,2024-10-10, MTL at BOS,-2.88,L,Goalie Loss
+Jeremy Swayman,BOS,2024-10-10, MTL at BOS,-1.29,W,Bad in Win
+Linus Ullmark,OTT,2024-10-10, FLA at OTT,1.94,W,No Impact
+Dennis Hildeby,TOR,2024-10-10, TOR at N.J,0.6499999999999999,W,No Impact
+Semyon Varlamov,NYI,2024-10-10, UTA at NYI,-2.79,L,Goalie Loss
+Joel Blomqvist,PIT,2024-10-10, PIT at DET,0.2999999999999998,W,No Impact
+Ville Husso,DET,2024-10-10, PIT at DET,-2.71,L,No Impact
+Cam Talbot,DET,2024-10-10, PIT at DET,-0.3899999999999999,L,No Impact
+Jake Oettinger,DAL,2024-10-10, DAL at NSH,0.10999999999999988,W,No Impact
+Scott Wedgewood,NSH,2024-10-10, DAL at NSH,-2.1399999999999997,L,Goalie Loss
+Elvis Merzlikins,CBJ,2024-10-10, CBJ at MIN,-0.79,L,No Impact
+Filip Gustavsson,MIN,2024-10-10, CBJ at MIN,0.54,W,No Impact
+Joel Hofer,STL,2024-10-10, STL at S.J,-1.3199999999999998,W,Bad in Win
+Mackenzie Blackwood,SJS,2024-10-10, STL at S.J,-0.6900000000000004,L,No Impact
