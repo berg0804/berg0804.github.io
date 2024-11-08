@@ -63,7 +63,7 @@
 <script>
     $(document).ready(function() {
         // Initialize DataTables with 50 rows display
-        $('.table1-container').DataTable({
+        $('.table1-container','.table2-container','.table3-container','.table4-container','.table5-container').DataTable({
             pageLength: 50,
             responsive: true
         });
@@ -95,7 +95,7 @@
 
 <div class="container">
     <!-- DataTable -->
-    <h2 class="mt-5">October 10, 2024</h2>
+    <h2 class="mt-5">October 28, 2024</h2>
     <div id="table1-container">
     <!-- Table header -->
     <table border="0" class="dataframe table table-striped table-bordered">
@@ -112,183 +112,147 @@
   </thead>
   <tbody>
     <tr>
-      <td>Sergei Bobrovsky</td>
-      <td>FLA</td>
-      <td>2024-10-10</td>
-      <td>FLA at OTT</td>
-      <td>-0.20</td>
+      <td>Connor Hellebuyck</td>
+      <td>WPG</td>
+      <td>2024-10-28</td>
+      <td>TOR at WPG</td>
+      <td>-1.16</td>
       <td>L</td>
       <td>No Impact</td>
     </tr>
     <tr>
-      <td>Jacob Markstrom</td>
-      <td>NJD</td>
-      <td>2024-10-10</td>
-      <td>TOR at N.J</td>
-      <td>-1.67</td>
+      <td>Stuart Skinner</td>
+      <td>EDM</td>
+      <td>2024-10-28</td>
+      <td>EDM at CBJ</td>
+      <td>-3.56</td>
       <td>L</td>
       <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Anthony Stolarz</td>
+      <td>TOR</td>
+      <td>2024-10-28</td>
+      <td>TOR at WPG</td>
+      <td>-2.08</td>
+      <td>W</td>
+      <td>Bad in Win</td>
+    </tr>
+    <tr>
+      <td>Dan Vladar</td>
+      <td>CGY</td>
+      <td>2024-10-28</td>
+      <td>CGY at VGK</td>
+      <td>-2.28</td>
+      <td>L</td>
+      <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Adin Hill</td>
+      <td>VEG</td>
+      <td>2024-10-28</td>
+      <td>CGY at VGK</td>
+      <td>1.35</td>
+      <td>W</td>
+      <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Petr Mrazek</td>
+      <td>CHI</td>
+      <td>2024-10-28</td>
+      <td>CHI at COL</td>
+      <td>0.64</td>
+      <td>W</td>
+      <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Sergei Bobrovsky</td>
+      <td>FLA</td>
+      <td>2024-10-28</td>
+      <td>FLA at BUF</td>
+      <td>-0.13</td>
+      <td>W</td>
+      <td>Bad in Win</td>
     </tr>
     <tr>
       <td>Connor Ingram</td>
       <td>UTA</td>
-      <td>2024-10-10</td>
-      <td>UTA at NYI</td>
-      <td>-1.54</td>
-      <td>NaN</td>
+      <td>2024-10-28</td>
+      <td>S.J at UTA</td>
+      <td>-0.47</td>
+      <td>L</td>
       <td>No Impact</td>
     </tr>
     <tr>
       <td>Ukko-Pekka Luukkonen</td>
       <td>BUF</td>
-      <td>2024-10-10</td>
-      <td>L.A at BUF</td>
-      <td>-0.28</td>
+      <td>2024-10-28</td>
+      <td>FLA at BUF</td>
+      <td>-2.57</td>
       <td>L</td>
       <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Darcy Kuemper</td>
-      <td>LAK</td>
-      <td>2024-10-10</td>
-      <td>L.A at BUF</td>
-      <td>3.39</td>
-      <td>W</td>
-      <td>Goalie Win</td>
-    </tr>
-    <tr>
-      <td>Cayden Primeau</td>
-      <td>MTL</td>
-      <td>2024-10-10</td>
-      <td>MTL at BOS</td>
-      <td>-2.88</td>
-      <td>L</td>
-      <td>Goalie Loss</td>
-    </tr>
-    <tr>
-      <td>Jeremy Swayman</td>
-      <td>BOS</td>
-      <td>2024-10-10</td>
-      <td>MTL at BOS</td>
-      <td>-1.29</td>
-      <td>W</td>
-      <td>Bad in Win</td>
-    </tr>
-    <tr>
-      <td>Linus Ullmark</td>
-      <td>OTT</td>
-      <td>2024-10-10</td>
-      <td>FLA at OTT</td>
-      <td>1.94</td>
-      <td>W</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Dennis Hildeby</td>
-      <td>TOR</td>
-      <td>2024-10-10</td>
-      <td>TOR at N.J</td>
-      <td>0.65</td>
-      <td>W</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Semyon Varlamov</td>
-      <td>NYI</td>
-      <td>2024-10-10</td>
-      <td>UTA at NYI</td>
-      <td>-2.79</td>
-      <td>L</td>
-      <td>Goalie Loss</td>
-    </tr>
-    <tr>
-      <td>Joel Blomqvist</td>
-      <td>PIT</td>
-      <td>2024-10-10</td>
-      <td>PIT at DET</td>
-      <td>0.30</td>
-      <td>W</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Ville Husso</td>
-      <td>DET</td>
-      <td>2024-10-10</td>
-      <td>PIT at DET</td>
-      <td>-2.71</td>
-      <td>L</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Cam Talbot</td>
-      <td>DET</td>
-      <td>2024-10-10</td>
-      <td>PIT at DET</td>
-      <td>-0.39</td>
-      <td>L</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Jake Oettinger</td>
-      <td>DAL</td>
-      <td>2024-10-10</td>
-      <td>DAL at NSH</td>
-      <td>0.11</td>
-      <td>W</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Scott Wedgewood</td>
-      <td>NSH</td>
-      <td>2024-10-10</td>
-      <td>DAL at NSH</td>
-      <td>-2.14</td>
-      <td>L</td>
-      <td>Goalie Loss</td>
     </tr>
     <tr>
       <td>Elvis Merzlikins</td>
       <td>CBJ</td>
-      <td>2024-10-10</td>
-      <td>CBJ at MIN</td>
-      <td>-0.79</td>
-      <td>L</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Filip Gustavsson</td>
-      <td>MIN</td>
-      <td>2024-10-10</td>
-      <td>CBJ at MIN</td>
-      <td>0.54</td>
+      <td>2024-10-28</td>
+      <td>EDM at CBJ</td>
+      <td>1.85</td>
       <td>W</td>
       <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Joel Hofer</td>
-      <td>STL</td>
-      <td>2024-10-10</td>
-      <td>STL at S.J</td>
-      <td>-1.32</td>
-      <td>W</td>
-      <td>Bad in Win</td>
     </tr>
     <tr>
       <td>Mackenzie Blackwood</td>
       <td>SJS</td>
-      <td>2024-10-10</td>
-      <td>STL at S.J</td>
-      <td>-0.69</td>
-      <td>L</td>
+      <td>2024-10-28</td>
+      <td>S.J at UTA</td>
+      <td>-1.99</td>
+      <td>W</td>
+      <td>Bad in Win</td>
+    </tr>
+    <tr>
+      <td>Andrei Vasilevskiy</td>
+      <td>TBL</td>
+      <td>2024-10-28</td>
+      <td>NSH at T.B</td>
+      <td>0.82</td>
+      <td>W</td>
       <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Kevin Lankinen</td>
+      <td>NSH</td>
+      <td>2024-10-28</td>
+      <td>CAR at VAN</td>
+      <td>-1.44</td>
+      <td>L</td>
+      <td>Goalie Loss</td>
+    </tr>
+    <tr>
+      <td>Juuse Saros</td>
+      <td>NSH</td>
+      <td>2024-10-28</td>
+      <td>NSH at T.B</td>
+      <td>0.47</td>
+      <td>L</td>
+      <td>Strong in Loss</td>
+    </tr>
+    <tr>
+      <td>Pyotr Kochetkov</td>
+      <td>CAR</td>
+      <td>2024-10-28</td>
+      <td>CAR at VAN</td>
+      <td>-0.47</td>
+      <td>W</td>
+      <td>Bad in Win</td>
     </tr>
   </tbody>
 </table>
-</div>
+    </div>
     <!-- DataTable 2 -->
     <h2>Top 10 Games</h2>
     <div id="table2-container">
-        <table border="0" class="dataframe table table-striped table-bordered" id="combinedTable">
+    <table border="0" class="dataframe table table-striped table-bordered" id="combinedTable">
   <thead>
     <tr style="text-align: right;">
       <th>Goalie</th>
@@ -311,6 +275,42 @@
       <td>Goalie Win</td>
     </tr>
     <tr>
+      <td>Cam Talbot</td>
+      <td>DET</td>
+      <td>2024-10-12</td>
+      <td>NSH at DET</td>
+      <td>4.45</td>
+      <td>W</td>
+      <td>Goalie Win</td>
+    </tr>
+    <tr>
+      <td>Anton Forsberg</td>
+      <td>OTT</td>
+      <td>2024-10-22</td>
+      <td>OTT at UTA</td>
+      <td>4.15</td>
+      <td>W</td>
+      <td>Goalie Win</td>
+    </tr>
+    <tr>
+      <td>Jake Oettinger</td>
+      <td>DAL</td>
+      <td>2024-10-12</td>
+      <td>NYI at DAL</td>
+      <td>3.81</td>
+      <td>W</td>
+      <td>Goalie Win</td>
+    </tr>
+    <tr>
+      <td>Lukas Dostal</td>
+      <td>ANA</td>
+      <td>2024-10-12</td>
+      <td>ANA at S.J</td>
+      <td>3.58</td>
+      <td>W</td>
+      <td>Goalie Win</td>
+    </tr>
+    <tr>
       <td>Igor Shesterkin</td>
       <td>NYR</td>
       <td>2024-10-09</td>
@@ -329,6 +329,15 @@
       <td>Goalie Win</td>
     </tr>
     <tr>
+      <td>Ilya Samsonov</td>
+      <td>VEG</td>
+      <td>2024-10-22</td>
+      <td>L.A at VGK</td>
+      <td>3.23</td>
+      <td>W</td>
+      <td>No Impact</td>
+    </tr>
+    <tr>
       <td>Connor Hellebuyck</td>
       <td>WPG</td>
       <td>2024-10-09</td>
@@ -338,65 +347,20 @@
       <td>No Impact</td>
     </tr>
     <tr>
-      <td>Jacob Markstrom</td>
-      <td>NJD</td>
-      <td>2024-10-04</td>
-      <td>N.J at BUF</td>
-      <td>2.61</td>
-      <td>W</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Anthony Stolarz</td>
-      <td>TOR</td>
-      <td>2024-10-09</td>
-      <td>TOR at MTL</td>
-      <td>1.97</td>
-      <td>L</td>
-      <td>Strong in Loss</td>
-    </tr>
-    <tr>
-      <td>Linus Ullmark</td>
-      <td>OTT</td>
-      <td>2024-10-10</td>
-      <td>FLA at OTT</td>
-      <td>1.94</td>
-      <td>W</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Jordan  Binnington</td>
-      <td>STL</td>
-      <td>2024-10-08</td>
-      <td>STL at SEA</td>
-      <td>1.65</td>
+      <td>Kevin Lankinen</td>
+      <td>NSH</td>
+      <td>2024-10-19</td>
+      <td>VAN at PHI</td>
+      <td>3.01</td>
       <td>W</td>
       <td>Goalie Win</td>
     </tr>
     <tr>
-      <td>Connor Ingram</td>
-      <td>UTA</td>
-      <td>2024-10-08</td>
-      <td>CHI at UTA</td>
-      <td>1.11</td>
-      <td>W</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Jake Allen</td>
-      <td>NJD</td>
-      <td>2024-10-05</td>
-      <td>BUF at N.J</td>
-      <td>0.78</td>
-      <td>W</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Dennis Hildeby</td>
-      <td>TOR</td>
-      <td>2024-10-10</td>
-      <td>TOR at N.J</td>
-      <td>0.65</td>
+      <td>Igor Shesterkin</td>
+      <td>NYR</td>
+      <td>2024-10-19</td>
+      <td>NYR at TOR</td>
+      <td>2.94</td>
       <td>W</td>
       <td>No Impact</td>
     </tr>
@@ -406,7 +370,7 @@
     <!-- DataTable 3 -->
     <h2>Bottom 10 Games</h2>
     <div id="table3-container">
-        <table border="0" class="dataframe table table-striped table-bordered" id="combinedTable">
+    <table border="0" class="dataframe table table-striped table-bordered" id="combinedTable">
   <thead>
     <tr style="text-align: right;">
       <th>Goalie</th>
@@ -420,6 +384,15 @@
   </thead>
   <tbody>
     <tr>
+      <td>Darcy Kuemper</td>
+      <td>LAK</td>
+      <td>2024-10-14</td>
+      <td>L.A at OTT</td>
+      <td>-4.38</td>
+      <td>L</td>
+      <td>Goalie Loss</td>
+    </tr>
+    <tr>
       <td>Arturs Silovs</td>
       <td>VAN</td>
       <td>2024-10-09</td>
@@ -427,6 +400,51 @@
       <td>-3.97</td>
       <td>L</td>
       <td>Goalie Loss</td>
+    </tr>
+    <tr>
+      <td>Devon Levi</td>
+      <td>BUF</td>
+      <td>2024-10-17</td>
+      <td>BUF at CBJ</td>
+      <td>-3.93</td>
+      <td>L</td>
+      <td>Goalie Loss</td>
+    </tr>
+    <tr>
+      <td>Calvin Pickard</td>
+      <td>EDM</td>
+      <td>2024-10-12</td>
+      <td>CHI at EDM</td>
+      <td>-3.92</td>
+      <td>L</td>
+      <td>Goalie Loss</td>
+    </tr>
+    <tr>
+      <td>Juuse Saros</td>
+      <td>NSH</td>
+      <td>2024-10-15</td>
+      <td>SEA at NSH</td>
+      <td>-3.82</td>
+      <td>L</td>
+      <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Jake Allen</td>
+      <td>NJD</td>
+      <td>2024-10-22</td>
+      <td>T.B at N.J</td>
+      <td>-3.76</td>
+      <td>L</td>
+      <td>Goalie Loss</td>
+    </tr>
+    <tr>
+      <td>Stuart Skinner</td>
+      <td>EDM</td>
+      <td>2024-10-28</td>
+      <td>EDM at CBJ</td>
+      <td>-3.56</td>
+      <td>L</td>
+      <td>No Impact</td>
     </tr>
     <tr>
       <td>Stuart Skinner</td>
@@ -438,88 +456,176 @@
       <td>No Impact</td>
     </tr>
     <tr>
-      <td>Cayden Primeau</td>
-      <td>MTL</td>
-      <td>2024-10-10</td>
-      <td>MTL at BOS</td>
-      <td>-2.88</td>
+      <td>Mackenzie Blackwood</td>
+      <td>SJS</td>
+      <td>2024-10-18</td>
+      <td>S.J at WPG</td>
+      <td>-3.50</td>
       <td>L</td>
-      <td>Goalie Loss</td>
+      <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Sergei Bobrovsky</td>
+      <td>FLA</td>
+      <td>2024-10-22</td>
+      <td>MIN at FLA</td>
+      <td>-3.39</td>
+      <td>L</td>
+      <td>No Impact</td>
+    </tr>
+    <tr>
+      <td>Sam Montembeault</td>
+      <td>MTL</td>
+      <td>2024-10-22</td>
+      <td>NYR at MTL</td>
+      <td>-3.29</td>
+      <td>L</td>
+      <td>No Impact</td>
+    </tr>
+  </tbody>
+</table>
+    </div> 
+    </div>
+    <!-- DataTable 4 -->
+    <h2>Top 10 xGAE</h2>
+    <div id="table4-container">
+    <table border="0" class="dataframe table table-striped table-bordered" id="combinedTable">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Goalie</th>
+      <th>Team</th>
+      <th>xGAE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Jake Oettinger</td>
+      <td>DAL</td>
+      <td>8.64</td>
+    </tr>
+    <tr>
+      <td>Lukas Dostal</td>
+      <td>ANA</td>
+      <td>8.00</td>
+    </tr>
+    <tr>
+      <td>Igor Shesterkin</td>
+      <td>NYR</td>
+      <td>6.06</td>
+    </tr>
+    <tr>
+      <td>Ilya Samsonov</td>
+      <td>VEG</td>
+      <td>6.06</td>
+    </tr>
+    <tr>
+      <td>Frederik Andersen</td>
+      <td>CAR</td>
+      <td>5.93</td>
+    </tr>
+    <tr>
+      <td>Anthony Stolarz</td>
+      <td>TOR</td>
+      <td>5.56</td>
+    </tr>
+    <tr>
+      <td>Sam Montembeault</td>
+      <td>MTL</td>
+      <td>5.44</td>
+    </tr>
+    <tr>
+      <td>Connor Hellebuyck</td>
+      <td>WPG</td>
+      <td>4.87</td>
+    </tr>
+    <tr>
+      <td>Alex Lyon</td>
+      <td>DET</td>
+      <td>4.83</td>
+    </tr>
+    <tr>
+      <td>Casey DeSmith</td>
+      <td>DAL</td>
+      <td>3.94</td>
+    </tr>
+    <tr>
+      <td>Jonathan Quick</td>
+      <td>NYR</td>
+      <td>3.46</td>
+    </tr>
+  </tbody>
+</table>
+    </div> 
+    </div>
+    <!-- DataTable 5 -->
+    <h2>Bottom 10 xGAE</h2>
+    <div id="table5-container">
+    <table border="0" class="dataframe table table-striped table-bordered" id="combinedTable">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Goalie</th>
+      <th>Team</th>
+      <th>xGAE</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Connor Ingram</td>
+      <td>UTA</td>
+      <td>-5.82</td>
+    </tr>
+    <tr>
+      <td>Samuel Ersson</td>
+      <td>PHI</td>
+      <td>-5.50</td>
     </tr>
     <tr>
       <td>Semyon Varlamov</td>
       <td>NYI</td>
-      <td>2024-10-10</td>
-      <td>UTA at NYI</td>
-      <td>-2.79</td>
-      <td>L</td>
-      <td>Goalie Loss</td>
+      <td>-5.29</td>
     </tr>
     <tr>
-      <td>Ville Husso</td>
-      <td>DET</td>
-      <td>2024-10-10</td>
-      <td>PIT at DET</td>
-      <td>-2.71</td>
-      <td>L</td>
-      <td>No Impact</td>
+      <td>Ivan Fedotov</td>
+      <td>PHI</td>
+      <td>-4.25</td>
     </tr>
     <tr>
-      <td>Dan Vladar</td>
-      <td>CGY</td>
-      <td>2024-10-09</td>
-      <td>CGY at VAN</td>
-      <td>-2.43</td>
-      <td>W</td>
-      <td>Bad in Win</td>
+      <td>Sergei Bobrovsky</td>
+      <td>FLA</td>
+      <td>-3.98</td>
     </tr>
     <tr>
-      <td>Scott Wedgewood</td>
-      <td>NSH</td>
-      <td>2024-10-10</td>
-      <td>DAL at NSH</td>
-      <td>-2.14</td>
-      <td>L</td>
-      <td>Goalie Loss</td>
+      <td>Devon Levi</td>
+      <td>BUF</td>
+      <td>-3.97</td>
     </tr>
     <tr>
-      <td>Justus Annunen</td>
-      <td>COL</td>
-      <td>2024-10-09</td>
-      <td>COL at VGK</td>
-      <td>-1.72</td>
-      <td>L</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Jacob Markstrom</td>
-      <td>NJD</td>
-      <td>2024-10-10</td>
-      <td>TOR at N.J</td>
-      <td>-1.67</td>
-      <td>L</td>
-      <td>No Impact</td>
-    </tr>
-    <tr>
-      <td>Connor Ingram</td>
-      <td>UTA</td>
-      <td>2024-10-10</td>
-      <td>UTA at NYI</td>
-      <td>-1.54</td>
-      <td>NaN</td>
-      <td>No Impact</td>
+      <td>Vitek Vanecek</td>
+      <td>SJS</td>
+      <td>-3.70</td>
     </tr>
     <tr>
       <td>Adin Hill</td>
       <td>VEG</td>
-      <td>2024-10-09</td>
-      <td>COL at VGK</td>
-      <td>-1.51</td>
-      <td>W</td>
-      <td>Bad in Win</td>
+      <td>-3.65</td>
+    </tr>
+    <tr>
+      <td>Arturs Silovs</td>
+      <td>VAN</td>
+      <td>-3.59</td>
+    </tr>
+    <tr>
+      <td>Tristan Jarry</td>
+      <td>PIT</td>
+      <td>-3.49</td>
+    </tr>
+    <tr>
+      <td>Ukko-Pekka Luukkonen</td>
+      <td>BUF</td>
+      <td>-3.45</td>
     </tr>
   </tbody>
 </table>
-    </div>    
+    </div> 
 </body>
 </html>
